@@ -87,8 +87,8 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="{APP_NAME} is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
-                    description="Disclaimer that TurboWarp is not connected to Scratch"
+                    defaultMessage="{APP_NAME} is not affiliated with TurboWarp Scratch, the Scratch Team, or the Scratch Foundation."
+                    description="Disclaimer that Katnip is not connected to TurboWarp or Scratch"
                     id="tw.footer.disclaimer"
                     values={{
                         APP_NAME
@@ -165,7 +165,7 @@ const Footer = () => (
                     </a>
                 </div>
                 <div className={styles.footerSection}>
-                    <a href="https://scratch.mit.edu/users/GarboMuffin/#comments">
+                    <a href="https://github.com/KatnipSC/">
                         <FormattedMessage
                             defaultMessage="Feedback & Bugs"
                             description="Link to feedback/bugs page"
@@ -175,7 +175,14 @@ const Footer = () => (
                     <a href="https://github.com/TurboWarp/">
                         <FormattedMessage
                             defaultMessage="Source Code"
-                            description="Link to source code"
+                            description="Link to KatnipSC source code"
+                            id="kn.code"
+                        />
+                    </a>
+                    <a href="https://github.com/TurboWarp/">
+                        <FormattedMessage
+                            defaultMessage="TurboWarp Source Code"
+                            description="Link to TurboWarp source code"
                             id="tw.code"
                         />
                     </a>

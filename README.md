@@ -1,4 +1,4 @@
-scratch-gui from [TurboWarp](https://turbowarp.org/) modified for use in [KatnipScratch](https://github.com/KatnipScratch/)
+scratch-gui from [TurboWarp](https://turbowarp.org/) modified for use in [KatnipSC](https://github.com/KatnipSC/)
 
 ## Setup
 
